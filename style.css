@@ -1,0 +1,77 @@
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+body {
+  margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card {
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+#icon {
+  height: 213px;
+  width: 213px;
+  border-radius: 50%;
+  border: #bb99dd solid 2px;
+  padding: 5px;
+}
+
+h4 {
+  color: #afafaf;
+  margin: 5px 0 30px 0;
+  font-weight: 300;
+}
+
+.links a {
+  margin: 0;
+  color: #bb99dd;
+  font-weight: 600;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: #bb99dd solid 2px;
+  border-radius: 4px;
+  width: 326px;
+  height: 49px;
+  margin: 0 40px 10px 40px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.icon{
+  height: 24px;
+  width: 24px;
+}
+
+.social-icons img:hover{
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+}
